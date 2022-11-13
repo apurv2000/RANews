@@ -7,7 +7,7 @@ import News from "./components/News";
 import Newsitem from "./components/Newsitem";
 
 function App() {
-  const apikey='4d1aed6e10b74e62979780c561cc6093'//todo process.env.REACT_APP_NEWS_API
+  const apikey=process.env.REACT_APP_NEWS        //todo process.env.REACT_APP_NEWS_API
   const[progress,setprogress]=useState(0);
   const[mode,setMode]=useState('dark');
   
